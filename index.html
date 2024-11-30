@@ -5,43 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Quiz</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- Start Page Section -->
-    <div id="start-page">
-        <h1>Welcome to the Anime Quiz!</h1>
-        <p>Test your knowledge of anime by answering a series of questions.</p>
-        <button id="start-button">Start the Quiz</button>
-
-        <div id="credits">
-            <h3>Credits</h3>
-            <p>Created by <strong>SpikyHighVirus</strong></p>
+    <div id="quiz-container">
+        <h1>Anime Quiz</h1>
+        <div id="question-section">
+            <p id="question"></p>
+            <ul id="options"></ul>
+        </div>
+        <div id="controls">
+            <button id="next-btn" class="hidden">Next</button>
+        </div>
+        <div id="score-section" class="hidden">
+            <h2>Your Score</h2>
+            <p id="score"></p>
+            <button id="restart-btn">Restart Quiz</button>
         </div>
     </div>
-
-    <!-- Quiz Page (hidden initially) -->
-    <div id="quiz-page" style="display: none;">
-        <!-- Your existing quiz content goes here (questions, options, etc.) -->
-        <div id="question-container">
-            <!-- The quiz will be displayed here -->
+    <script src="script.js"></script>
+    <div class="quiz-container">
+        <div id="question"></div>
+        <ul id="options"></ul>
+        <button id="next-btn" class="hidden">Next</button>
+    
+        <!-- Score Section -->
+        <div id="score-section" class="hidden">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            <button id="restart-btn">Restart</button>
         </div>
-        <button id="next-button" onclick="nextQuestion()">Next</button>
     </div>
-
-    <script>
-        // JavaScript to handle page transition
-        document.getElementById('start-button').addEventListener('click', function() {
-            document.getElementById('start-page').style.display = 'none'; // Hide start page
-            document.getElementById('quiz-page').style.display = 'block'; // Show quiz page
-            startQuiz(); // Initialize the quiz
-        });
-
-        // Function to initialize quiz (placeholder for your existing quiz logic)
-        function startQuiz() {
-            console.log('Quiz started!');
-            // Add your quiz initialization code here
-        }
-    </script>
+    
 </body>
 </html>
