@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Who is the protagonist of 'Naruto'?",
+        "options": ["Naruto Uzumaki", "Sasuke Uchiha", "Kakashi Hatake"],
+        "answer": 0
+    },
+    {
+        "question": "What is the name of Goku's Saiyan home planet?",
+        "options": ["Earth", "Namek", "Vegeta"],
+        "answer": 2
+    },
+    {
+        "question": "Which anime features the 'Straw Hat Pirates'?",
+        "options": ["One Piece", "Fairy Tail", "Bleach"],
+        "answer": 0
+    }
+]
