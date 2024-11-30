@@ -27,10 +27,6 @@ Welcome to the **Anime Quiz**! Test your knowledge of anime by answering a serie
 You can play the quiz directly here:  
 https://spikyhighvirus.github.io/anime-quiz/
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - This project was created to learn and practice web development.
