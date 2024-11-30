@@ -25,7 +25,7 @@ Welcome to the **Anime Quiz**! Test your knowledge of anime by answering a serie
 ## GitHub Pages Link
 
 You can play the quiz directly here:  
-[https://<your-username>.github.io/<repository-name>/](https://<your-username>.github.io/<repository-name>/)
+https://spikyhighvirus.github.io/anime-quiz/
 
 ## License
 
